@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Route 66 — Chicago to Santa Monica</title>
+    <meta
+      name="description"
+      content="A public map of Historic Route 66. Hidden diners, neon motels, and the quiet miles in between. Full trip app at route66.grok.me."
+    />
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="canonical" href="https://pruthvirajg.github.io/" />
+    <meta property="og:title" content="Route 66 companion" />
+    <meta property="og:description" content="Chicago to Santa Monica — named stops on the Mother Road." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Figtree:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="bar">
+      <div class="brand">
+        <span class="shield">66</span>
+        <div>
+          <h1>Route 66</h1>
+          <p id="count">Chicago to Santa Monica</p>
+        </div>
+      </div>
+      <a class="cta" href="https://route66.grok.me">Open full app</a>
+    </header>
+    <div class="layout">
+      <div id="map" role="application" aria-label="Route 66 map"></div>
+      <aside class="panel">
+        <label class="search">
+          <input id="q" type="search" placeholder="Stop, town or state" autocomplete="off" />
+        </label>
+        <div id="list" class="list"></div>
+      </aside>
+    </div>
+    <footer class="foot">
+      <a href="https://route66.grok.me">route66.grok.me</a>
+      <a href="https://github.com/pruthvirajg/route66">Source</a>
+      <a href="https://www.nps.gov/subjects/travelroute66/index.htm">NPS itinerary</a>
+      <a href="https://commons.wikimedia.org/wiki/Category:U.S._Route_66">Wikimedia</a>
+    </footer>
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
