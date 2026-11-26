@@ -1,0 +1,115 @@
+/* Trip pages: same asphalt / neon look as the Route 66 map (site/styles.css). */
+:root {
+  --asphalt: #14161b;
+  --raise: #1e222b;
+  --line: #2c313c;
+  --neon: #37d6c4;
+  --cream: #ede6d6;
+  --dust: #8a8578;
+  --pink: #f2568e;
+  --amber: #f2b84b;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; background: var(--asphalt); color: var(--cream); font-family: Figtree, system-ui, -apple-system, "Segoe UI", sans-serif; }
+a { color: var(--neon); }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--neon); outline-offset: 2px; }
+
+.bar {
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  padding-block: 10px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  border-bottom: 1px solid var(--line);
+}
+.brand { display: flex; align-items: center; gap: 10px; min-width: 0; }
+.shield {
+  flex: none; display: grid; place-items: center; width: 40px; height: 40px; border-radius: 8px;
+  border: 2px solid var(--neon); color: var(--asphalt); background: var(--cream);
+  font-family: "Bebas Neue", Impact, sans-serif; font-size: 22px; text-decoration: none;
+}
+h1 { margin: 0; font-family: "Bebas Neue", Impact, sans-serif; letter-spacing: 0.04em; font-size: 26px; font-weight: 400; line-height: 1.05; text-wrap: balance; }
+.brand p { margin: 2px 0 0; color: var(--dust); font-size: 12px; }
+.cta {
+  flex: none; color: var(--asphalt); background: var(--neon); text-decoration: none;
+  font-weight: 700; font-size: 13px; padding: 8px 12px; border-radius: 999px; white-space: nowrap;
+}
+
+.layout { display: grid; grid-template-columns: 1.15fr 0.85fr; height: calc(100dvh - 104px); min-height: 420px; }
+#map { background: #1a1d24; }
+.panel { border-left: 1px solid var(--line); display: flex; flex-direction: column; min-width: 0; min-height: 0; }
+
+.summary { padding: 12px 14px 4px; display: grid; gap: 8px; }
+.stats { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 13px; color: var(--dust); font-variant-numeric: tabular-nums; }
+.stats b { color: var(--cream); font-weight: 700; }
+.note { margin: 0; font-size: 13px; line-height: 1.45; color: var(--cream); opacity: 0.85; }
+
+.chips { display: flex; gap: 6px; overflow-x: auto; padding: 8px 14px 10px; border-bottom: 1px solid var(--line); scrollbar-width: none; }
+.chips::-webkit-scrollbar { display: none; }
+.chip {
+  flex: none; font: inherit; font-size: 13px; font-weight: 600; color: var(--cream);
+  background: var(--raise); border: 1px solid var(--line); border-radius: 999px; padding: 6px 12px; cursor: pointer;
+}
+.chip[aria-pressed="true"] { background: var(--cream); color: var(--asphalt); border-color: var(--cream); }
+.chip .sw { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px; vertical-align: 1px; }
+
+.list { overflow: auto; padding: 0 6px 18px; min-height: 0; }
+.day { padding: 14px 8px 4px; }
+.day h2 { margin: 0; font-family: "Bebas Neue", Impact, sans-serif; font-weight: 400; letter-spacing: 0.05em; font-size: 22px; }
+.day .meta { margin: 2px 0 0; color: var(--dust); font-size: 12px; font-variant-numeric: tabular-nums; }
+.day .warn { margin: 8px 0 0; font-size: 12.5px; line-height: 1.45; color: var(--amber); }
+
+.stop {
+  display: grid; grid-template-columns: 30px 1fr; gap: 10px; align-items: start;
+  width: 100%; text-align: left; background: transparent; color: inherit; font: inherit;
+  border: 0; border-bottom: 1px solid var(--line); padding: 10px 8px; cursor: pointer;
+}
+.stop:hover { background: #262b36; }
+.stop .body { min-width: 0; }
+.stop b { display: block; font-size: 15px; line-height: 1.3; }
+.stop .sub { display: block; color: var(--dust); font-size: 12px; margin-top: 2px; font-variant-numeric: tabular-nums; }
+.stop .txt { display: block; font-size: 13px; line-height: 1.45; margin-top: 4px; opacity: 0.9; }
+.stop .opt { color: var(--asphalt); background: var(--dust); font-size: 10px; font-weight: 800; padding: 1px 6px; border-radius: 999px; margin-left: 6px; vertical-align: 2px; }
+.stop .go { display: inline-block; margin-top: 6px; font-size: 12.5px; font-weight: 700; }
+
+.glyph {
+  display: grid; place-items: center; width: 26px; height: 26px; border-radius: 50%;
+  font-size: 12px; font-weight: 800; border: 2px solid var(--asphalt); box-shadow: 0 0 0 1px var(--line);
+}
+.glyph svg { width: 13px; height: 13px; }
+.k-see .glyph, .glyph.k-see { background: var(--neon); color: var(--asphalt); }
+.k-charge .glyph, .glyph.k-charge { background: var(--pink); color: var(--asphalt); }
+.k-sleep .glyph, .glyph.k-sleep { background: var(--cream); color: var(--asphalt); }
+.k-end .glyph, .glyph.k-end { background: var(--asphalt); color: var(--cream); box-shadow: 0 0 0 2px var(--cream); }
+
+.legend { display: flex; flex-wrap: wrap; gap: 10px 14px; font-size: 12px; color: var(--dust); }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.legend .glyph { width: 18px; height: 18px; font-size: 9px; border-width: 1px; }
+.legend .glyph svg { width: 9px; height: 9px; }
+
+.pin { background: none; border: 0; }
+.pin .glyph { width: 24px; height: 24px; }
+.pin.dim { opacity: 0.35; }
+.leaflet-popup-content-wrapper, .leaflet-popup-tip { background: var(--raise); color: var(--cream); }
+.leaflet-popup-content { margin: 10px 12px; font-family: Figtree, system-ui, sans-serif; font-size: 13px; line-height: 1.4; }
+.leaflet-container a.leaflet-popup-close-button { color: var(--dust); }
+.leaflet-control-attribution { background: rgba(20, 22, 27, 0.8) !important; color: var(--dust) !important; }
+.leaflet-control-attribution a { color: var(--dust) !important; }
+
+.foot {
+  display: flex; flex-wrap: wrap; gap: 8px 14px; font-size: 12px; border-top: 1px solid var(--line);
+  padding-block: 10px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+.foot .fine { color: var(--dust); flex-basis: 100%; }
+
+@media (max-width: 800px) {
+  .layout { grid-template-columns: 1fr; grid-template-rows: 40vh auto; height: auto; }
+  #map { height: 40vh; }
+  .panel { border-left: 0; border-top: 1px solid var(--line); }
+  .list { overflow: visible; }
+  .chips { position: sticky; top: 0; z-index: 500; background: var(--asphalt); }
+  h1 { font-size: 22px; }
+}
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }

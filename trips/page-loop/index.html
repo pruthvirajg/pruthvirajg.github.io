@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Page &amp; Antelope Canyon Loop · Route 66</title>
+    <meta name="description" content="A four-day Tesla road trip from San Jose to Page, Arizona: Route 66, Antelope Canyon, Horseshoe Bend and Lake Powell, with every Supercharger stop on the map." />
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <meta property="og:title" content="Page &amp; Antelope Canyon Loop" />
+    <meta property="og:description" content="A four-day Tesla road trip from San Jose to Page, Arizona: Route 66, Antelope Canyon, Horseshoe Bend and Lake Powell, with every Supercharger stop on the map." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Figtree:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <link rel="stylesheet" href="../trip.css" />
+  </head>
+  <body data-trip="./trip.json">
+    <header class="bar">
+      <div class="brand">
+        <a class="shield" href="../../" aria-label="Route 66 map">66</a>
+        <div>
+          <h1 id="title">Page &amp; Antelope Canyon Loop</h1>
+          <p id="subtitle">Loading the route…</p>
+        </div>
+      </div>
+      <a class="cta" href="../../">Route 66 map</a>
+    </header>
+    <div class="layout">
+      <div id="map" role="application" aria-label="Trip map"></div>
+      <aside class="panel">
+        <div id="summary" class="summary"></div>
+        <nav id="chips" class="chips" aria-label="Days"></nav>
+        <div id="list" class="list"></div>
+      </aside>
+    </div>
+    <footer class="foot">
+      <a href="../phoenix/">Phoenix by Route 66</a>
+      <a href="../../">Route 66 map</a>
+      <a href="https://www.tesla.com/findus">Tesla Supercharger map</a>
+      <span class="fine">Distances and times are estimates. Check road conditions, hours and tour times before you go.</span>
+    </footer>
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    <script src="../trip.js"></script>
+  </body>
+</html>

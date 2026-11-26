@@ -1,0 +1,595 @@
+{
+  "slug": "page-loop",
+  "title": "Page & Antelope Canyon Loop",
+  "subtitle": "San Jose to Page, Arizona and back, by Tesla",
+  "note": "Four days, planned for a Model Y with about 230 miles of range at 80%. Every leg stays under that with margin for cold mornings, highway speed and the climb to Flagstaff. Pins are approximate; tap Drive here for turn-by-turn, and use the car's navigation for live Supercharger stall counts.",
+  "stops": [
+    {
+      "id": "sj",
+      "name": "San Jose",
+      "kind": "start",
+      "lat": 37.3382,
+      "lon": -121.8863,
+      "q": "San Jose, CA",
+      "note": "Leave around 9 AM with a full charge."
+    },
+    {
+      "id": "sc-kettleman",
+      "name": "Kettleman City Supercharger",
+      "kind": "charge",
+      "lat": 36.0076,
+      "lon": -119.9617,
+      "q": "Tesla Supercharger Kettleman City, CA",
+      "stay": "about 25 min",
+      "note": "Big site off I-5, but it gets long lines on holiday weekends."
+    },
+    {
+      "id": "sc-tehachapi",
+      "name": "Tehachapi Supercharger",
+      "kind": "charge",
+      "lat": 35.132,
+      "lon": -118.449,
+      "q": "Tesla Supercharger Tehachapi, CA",
+      "stay": "about 20 min",
+      "note": "Top up before the high desert. CA-58 climbs over Tehachapi Pass."
+    },
+    {
+      "id": "sc-barstow",
+      "name": "Barstow Supercharger",
+      "kind": "charge",
+      "lat": 34.876,
+      "lon": -117.11,
+      "q": "Tesla Supercharger Barstow, CA",
+      "stay": "about 25 min",
+      "note": "Charge well here: the next 145 miles on I-40 are empty desert."
+    },
+    {
+      "id": "barstow-museum",
+      "name": "Route 66 Mother Road Museum",
+      "kind": "see",
+      "optional": true,
+      "lat": 34.901,
+      "lon": -117.023,
+      "q": "Route 66 Mother Road Museum, Barstow, CA",
+      "note": "In the old Harvey House depot, a few minutes from the charger. Check the hours before you go."
+    },
+    {
+      "id": "sc-needles",
+      "name": "Needles Supercharger",
+      "kind": "charge",
+      "lat": 34.8478,
+      "lon": -114.6143,
+      "q": "Tesla Supercharger Needles, CA",
+      "stay": "about 20 min",
+      "note": "Last California stop before the Colorado River."
+    },
+    {
+      "id": "kingman",
+      "name": "Kingman",
+      "kind": "sleep",
+      "lat": 35.19,
+      "lon": -114.05,
+      "q": "Kingman, AZ",
+      "note": "Arizona's Route 66 hub, and your base on nights 1 and 3. Charge at the Kingman Supercharger so you leave each morning near 100%."
+    },
+    {
+      "id": "hackberry",
+      "name": "Hackberry General Store",
+      "kind": "see",
+      "lat": 35.37494,
+      "lon": -113.72268,
+      "q": "Hackberry General Store, Hackberry, AZ",
+      "note": "Old gas station packed with Route 66 signs, pumps and a red Corvette. Quick photo stop."
+    },
+    {
+      "id": "seligman",
+      "name": "Seligman",
+      "kind": "see",
+      "lat": 35.326,
+      "lon": -112.874,
+      "q": "Delgadillo's Snow Cap, Seligman, AZ",
+      "note": "The town that started the Route 66 revival. Snow Cap Drive-In and Angel & Vilma's gift shop. No Supercharger here."
+    },
+    {
+      "id": "sc-flagstaff",
+      "name": "Flagstaff Supercharger",
+      "kind": "charge",
+      "lat": 35.193,
+      "lon": -111.65,
+      "q": "Tesla Supercharger Flagstaff, AZ",
+      "stay": "about 30 min",
+      "note": "Charge high here. Flagstaff sits near 7,000 ft; it is downhill most of the way to Page."
+    },
+    {
+      "id": "lower-antelope",
+      "name": "Lower Antelope Canyon",
+      "kind": "see",
+      "lat": 36.9031,
+      "lon": -111.414,
+      "q": "Lower Antelope Canyon, Page, AZ",
+      "note": "Slot canyon on Navajo land, guided tours only. Book a tour time ahead; afternoon slots sell out first."
+    },
+    {
+      "id": "horseshoe",
+      "name": "Horseshoe Bend",
+      "kind": "see",
+      "lat": 36.8794,
+      "lon": -111.5104,
+      "q": "Horseshoe Bend Overlook, Page, AZ",
+      "note": "About 10 minutes from the canyon. Easy 1.5-mile round-trip walk to the rim. Best at sunset."
+    },
+    {
+      "id": "page",
+      "name": "Page",
+      "kind": "sleep",
+      "lat": 36.9147,
+      "lon": -111.4558,
+      "q": "Page, AZ",
+      "note": "The Page Supercharger is in town; charge overnight or first thing."
+    },
+    {
+      "id": "toadstool",
+      "name": "Toadstool Hoodoos",
+      "kind": "see",
+      "lat": 37.105,
+      "lon": -111.8762,
+      "q": "Toadstool Hoodoos Trailhead, Kanab, UT",
+      "note": "About 45 minutes west on US-89, just over the Utah line. Easy 1.8-mile round-trip walk to balanced-rock hoodoos."
+    },
+    {
+      "id": "wahweap",
+      "name": "Wahweap Overlook, Lake Powell",
+      "kind": "see",
+      "lat": 36.9858,
+      "lon": -111.4908,
+      "q": "Wahweap Overlook, Page, AZ",
+      "note": "Wide view over Lake Powell and the marina, right on the way back into Page."
+    },
+    {
+      "id": "dam",
+      "name": "Glen Canyon Dam Overlook",
+      "kind": "see",
+      "lat": 36.933,
+      "lon": -111.4855,
+      "q": "Glen Canyon Dam Overlook, Page, AZ",
+      "note": "Short walk to a ledge above the dam and the river."
+    },
+    {
+      "id": "sc-page",
+      "name": "Page Supercharger",
+      "kind": "charge",
+      "lat": 36.9135,
+      "lon": -111.458,
+      "q": "Tesla Supercharger Page, AZ",
+      "stay": "to 100%",
+      "note": "Leave Page full. There are no chargers on the 135-mile climb back to Flagstaff."
+    },
+    {
+      "id": "sc-flagstaff-2",
+      "name": "Flagstaff Supercharger",
+      "kind": "charge",
+      "lat": 35.1935,
+      "lon": -111.6495,
+      "q": "Tesla Supercharger Flagstaff, AZ",
+      "stay": "about 30 min",
+      "note": "Williams Supercharger, 33 miles west, is a backup if Flagstaff is full."
+    },
+    {
+      "id": "sc-needles-2",
+      "name": "Needles Supercharger",
+      "kind": "charge",
+      "lat": 34.8478,
+      "lon": -114.6143,
+      "q": "Tesla Supercharger Needles, CA",
+      "stay": "about 25 min"
+    },
+    {
+      "id": "sc-barstow-2",
+      "name": "Barstow Supercharger",
+      "kind": "charge",
+      "lat": 34.876,
+      "lon": -117.11,
+      "q": "Tesla Supercharger Barstow, CA",
+      "stay": "about 25 min"
+    },
+    {
+      "id": "sc-tehachapi-2",
+      "name": "Tehachapi Supercharger",
+      "kind": "charge",
+      "lat": 35.132,
+      "lon": -118.449,
+      "q": "Tesla Supercharger Tehachapi, CA",
+      "stay": "about 20 min"
+    },
+    {
+      "id": "sc-kettleman-2",
+      "name": "Kettleman City Supercharger",
+      "kind": "charge",
+      "lat": 36.0076,
+      "lon": -119.9617,
+      "q": "Tesla Supercharger Kettleman City, CA",
+      "stay": "about 25 min",
+      "note": "Expect a wait on the busiest return day. Your car shows live stall counts."
+    },
+    {
+      "id": "sj-end",
+      "name": "San Jose",
+      "kind": "end",
+      "lat": 37.3382,
+      "lon": -121.8863,
+      "q": "San Jose, CA"
+    }
+  ],
+  "days": [
+    {
+      "title": "San Jose to Kingman",
+      "time": "about 9 h driving + 1.5 to 2 h charging",
+      "note": "Mostly a driving day: CA-152 to I-5, CA-58 over Tehachapi Pass, then I-40 across the Mojave.",
+      "stops": [
+        "sj",
+        "sc-kettleman",
+        "sc-tehachapi",
+        "sc-barstow",
+        "barstow-museum",
+        "sc-needles",
+        "kingman"
+      ],
+      "legs": [
+        0,
+        160,
+        125,
+        95,
+        5,
+        145,
+        60
+      ],
+      "route": [
+        "sj",
+        [
+          37.005,
+          -121.568
+        ],
+        [
+          37.07,
+          -121.22
+        ],
+        [
+          37.1,
+          -121.02
+        ],
+        [
+          36.6,
+          -120.55
+        ],
+        "sc-kettleman",
+        [
+          35.62,
+          -119.69
+        ],
+        [
+          35.59,
+          -119.34
+        ],
+        [
+          35.37,
+          -119.01
+        ],
+        [
+          35.22,
+          -118.56
+        ],
+        "sc-tehachapi",
+        [
+          35.05,
+          -118.17
+        ],
+        [
+          35.0,
+          -117.65
+        ],
+        [
+          34.93,
+          -117.2
+        ],
+        "sc-barstow",
+        [
+          34.83,
+          -116.69
+        ],
+        [
+          34.72,
+          -116.16
+        ],
+        [
+          34.82,
+          -115.19
+        ],
+        "sc-needles",
+        [
+          34.72,
+          -114.48
+        ],
+        [
+          34.87,
+          -114.15
+        ],
+        "kingman"
+      ]
+    },
+    {
+      "title": "Route 66 to Page",
+      "time": "about 6 h driving + stops",
+      "note": "Leave Kingman by 7 AM on the old road through Hackberry and Seligman, then I-40 to Flagstaff and US-89 north to Page.",
+      "stops": [
+        "kingman",
+        "hackberry",
+        "seligman",
+        "sc-flagstaff",
+        "lower-antelope",
+        "horseshoe",
+        "page"
+      ],
+      "legs": [
+        0,
+        28,
+        59,
+        75,
+        135,
+        6,
+        6
+      ],
+      "route": [
+        "kingman",
+        [
+          35.29,
+          -113.93
+        ],
+        "hackberry",
+        [
+          35.49,
+          -113.56
+        ],
+        [
+          35.53,
+          -113.42
+        ],
+        [
+          35.529,
+          -113.229
+        ],
+        "seligman",
+        [
+          35.22,
+          -112.48
+        ],
+        [
+          35.25,
+          -112.19
+        ],
+        [
+          35.26,
+          -111.95
+        ],
+        "sc-flagstaff",
+        [
+          35.33,
+          -111.53
+        ],
+        [
+          35.73,
+          -111.47
+        ],
+        [
+          35.87,
+          -111.41
+        ],
+        [
+          36.3,
+          -111.47
+        ],
+        [
+          36.6,
+          -111.65
+        ],
+        [
+          36.7,
+          -111.55
+        ],
+        "lower-antelope",
+        "horseshoe",
+        "page"
+      ],
+      "warn": "Seligman has no Supercharger. Kingman to Flagstaff is about 160 miles, so leave Kingman near 100%."
+    },
+    {
+      "title": "Page in the morning, Kingman at night",
+      "time": "about 6.5 h driving + 1 h charging",
+      "note": "See the hoodoos and Lake Powell early, charge to full, and head out around 1 PM to reach Kingman around 6 PM.",
+      "stops": [
+        "page",
+        "toadstool",
+        "wahweap",
+        "dam",
+        "sc-page",
+        "sc-flagstaff-2",
+        "kingman"
+      ],
+      "legs": [
+        0,
+        45,
+        40,
+        5,
+        4,
+        135,
+        150
+      ],
+      "route": [
+        "page",
+        [
+          37.0,
+          -111.55
+        ],
+        [
+          37.08,
+          -111.66
+        ],
+        "toadstool",
+        [
+          37.08,
+          -111.66
+        ],
+        [
+          37.0,
+          -111.55
+        ],
+        "wahweap",
+        "dam",
+        "sc-page",
+        [
+          36.7,
+          -111.55
+        ],
+        [
+          36.6,
+          -111.65
+        ],
+        [
+          36.3,
+          -111.47
+        ],
+        [
+          35.87,
+          -111.41
+        ],
+        [
+          35.73,
+          -111.47
+        ],
+        [
+          35.33,
+          -111.53
+        ],
+        "sc-flagstaff-2",
+        [
+          35.26,
+          -111.95
+        ],
+        [
+          35.25,
+          -112.19
+        ],
+        [
+          35.22,
+          -112.48
+        ],
+        [
+          35.3,
+          -112.87
+        ],
+        [
+          35.25,
+          -113.2
+        ],
+        [
+          35.17,
+          -113.65
+        ],
+        "kingman"
+      ],
+      "warn": "No chargers between Page and Flagstaff, and the road climbs about 2,600 ft. Leave Page at 100%."
+    },
+    {
+      "title": "Kingman to San Jose",
+      "time": "about 9 h driving + 2 h charging",
+      "note": "The same desert road home, in reverse. Start early; the last stretch is often the slowest.",
+      "stops": [
+        "kingman",
+        "sc-needles-2",
+        "sc-barstow-2",
+        "sc-tehachapi-2",
+        "sc-kettleman-2",
+        "sj-end"
+      ],
+      "legs": [
+        0,
+        60,
+        145,
+        95,
+        125,
+        160
+      ],
+      "route": [
+        "kingman",
+        [
+          34.87,
+          -114.15
+        ],
+        [
+          34.72,
+          -114.48
+        ],
+        "sc-needles-2",
+        [
+          34.82,
+          -115.19
+        ],
+        [
+          34.72,
+          -116.16
+        ],
+        [
+          34.83,
+          -116.69
+        ],
+        "sc-barstow-2",
+        [
+          34.93,
+          -117.2
+        ],
+        [
+          35.0,
+          -117.65
+        ],
+        [
+          35.05,
+          -118.17
+        ],
+        "sc-tehachapi-2",
+        [
+          35.22,
+          -118.56
+        ],
+        [
+          35.37,
+          -119.01
+        ],
+        [
+          35.59,
+          -119.34
+        ],
+        [
+          35.62,
+          -119.69
+        ],
+        "sc-kettleman-2",
+        [
+          36.6,
+          -120.55
+        ],
+        [
+          37.1,
+          -121.02
+        ],
+        [
+          37.07,
+          -121.22
+        ],
+        [
+          37.005,
+          -121.568
+        ],
+        "sj-end"
+      ]
+    }
+  ]
+}

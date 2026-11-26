@@ -1,0 +1,391 @@
+{
+  "slug": "phoenix",
+  "title": "Phoenix by Route 66",
+  "subtitle": "San Jose to Phoenix the scenic way, by Tesla",
+  "note": "Two days, one way. Instead of the faster I-5 and I-10 route through Los Angeles, this one follows I-40 to Kingman, old Route 66 through Oatman, Hackberry and Seligman, then down through Oak Creek Canyon and Sedona. Planned for a Model Y with about 230 miles of range at 80%. Pins are approximate; tap Drive here for turn-by-turn.",
+  "stops": [
+    {
+      "id": "sj",
+      "name": "San Jose",
+      "kind": "start",
+      "lat": 37.3382,
+      "lon": -121.8863,
+      "q": "San Jose, CA",
+      "note": "Leave around 9 AM with a full charge."
+    },
+    {
+      "id": "sc-kettleman",
+      "name": "Kettleman City Supercharger",
+      "kind": "charge",
+      "lat": 36.0076,
+      "lon": -119.9617,
+      "q": "Tesla Supercharger Kettleman City, CA",
+      "stay": "about 25 min",
+      "note": "Big site off I-5, but it gets long lines on holiday weekends."
+    },
+    {
+      "id": "sc-tehachapi",
+      "name": "Tehachapi Supercharger",
+      "kind": "charge",
+      "lat": 35.132,
+      "lon": -118.449,
+      "q": "Tesla Supercharger Tehachapi, CA",
+      "stay": "about 20 min",
+      "note": "Top up before the high desert. CA-58 climbs over Tehachapi Pass."
+    },
+    {
+      "id": "sc-barstow",
+      "name": "Barstow Supercharger",
+      "kind": "charge",
+      "lat": 34.876,
+      "lon": -117.11,
+      "q": "Tesla Supercharger Barstow, CA",
+      "stay": "about 25 min",
+      "note": "Charge well here: the next 145 miles on I-40 are empty desert."
+    },
+    {
+      "id": "barstow-museum",
+      "name": "Route 66 Mother Road Museum",
+      "kind": "see",
+      "optional": true,
+      "lat": 34.901,
+      "lon": -117.023,
+      "q": "Route 66 Mother Road Museum, Barstow, CA",
+      "note": "In the old Harvey House depot, a few minutes from the charger. Check the hours before you go."
+    },
+    {
+      "id": "sc-needles",
+      "name": "Needles Supercharger",
+      "kind": "charge",
+      "lat": 34.8478,
+      "lon": -114.6143,
+      "q": "Tesla Supercharger Needles, CA",
+      "stay": "about 20 min",
+      "note": "Last California stop before the Colorado River."
+    },
+    {
+      "id": "kingman",
+      "name": "Kingman",
+      "kind": "sleep",
+      "lat": 35.19,
+      "lon": -114.05,
+      "q": "Kingman, AZ",
+      "note": "Arizona's Route 66 hub. Charge at the Kingman Supercharger tonight so you leave near 100%."
+    },
+    {
+      "id": "cool-springs",
+      "name": "Cool Springs Station",
+      "kind": "see",
+      "optional": true,
+      "lat": 35.02742,
+      "lon": -114.30884,
+      "q": "Cool Springs Station, Golden Valley, AZ",
+      "note": "Restored 1920s stone gas station at the foot of the Black Mountains."
+    },
+    {
+      "id": "sitgreaves",
+      "name": "Sitgreaves Pass",
+      "kind": "see",
+      "optional": true,
+      "lat": 35.043,
+      "lon": -114.34,
+      "q": "Sitgreaves Pass, Oatman, AZ",
+      "note": "The steepest, tightest stretch of Route 66 in Arizona. Hairpins, no guardrails, big views. Daylight only."
+    },
+    {
+      "id": "oatman",
+      "name": "Oatman",
+      "kind": "see",
+      "optional": true,
+      "lat": 35.027,
+      "lon": -114.383,
+      "q": "Oatman, AZ",
+      "note": "Old gold-mining town where wild burros wander the main street. Skip this loop to save about 2 hours."
+    },
+    {
+      "id": "sc-kingman",
+      "name": "Kingman Supercharger",
+      "kind": "charge",
+      "lat": 35.214,
+      "lon": -114.02,
+      "q": "Tesla Supercharger Kingman, AZ",
+      "stay": "about 20 min",
+      "note": "Top up on the way back through Kingman before heading east."
+    },
+    {
+      "id": "hackberry",
+      "name": "Hackberry General Store",
+      "kind": "see",
+      "lat": 35.37494,
+      "lon": -113.72268,
+      "q": "Hackberry General Store, Hackberry, AZ",
+      "note": "Old gas station packed with Route 66 signs, pumps and a red Corvette. Quick photo stop."
+    },
+    {
+      "id": "seligman",
+      "name": "Seligman",
+      "kind": "see",
+      "lat": 35.326,
+      "lon": -112.874,
+      "q": "Delgadillo's Snow Cap, Seligman, AZ",
+      "note": "The town that started the Route 66 revival. Snow Cap Drive-In and Angel & Vilma's gift shop. No Supercharger here."
+    },
+    {
+      "id": "sc-williams",
+      "name": "Williams Supercharger",
+      "kind": "charge",
+      "lat": 35.2507,
+      "lon": -112.188,
+      "q": "Tesla Supercharger Williams, AZ",
+      "stay": "about 30 min",
+      "note": "Charge here, then walk Williams' Route 66 main street: Pete's Gas Station Museum is a block away."
+    },
+    {
+      "id": "oak-creek",
+      "name": "Oak Creek Canyon",
+      "kind": "see",
+      "lat": 34.9439,
+      "lon": -111.7528,
+      "q": "Slide Rock State Park, Sedona, AZ",
+      "note": "AZ-89A drops from Flagstaff through a red-rock canyon. Pull off at the Oak Creek Vista and Slide Rock."
+    },
+    {
+      "id": "airport-mesa",
+      "name": "Airport Mesa",
+      "kind": "see",
+      "lat": 34.8562,
+      "lon": -111.7887,
+      "q": "Airport Mesa Viewpoint, Sedona, AZ",
+      "note": "The classic Sedona sunset view over the red rocks. Parking is small; arrive early."
+    },
+    {
+      "id": "sc-sedona",
+      "name": "Sedona Supercharger",
+      "kind": "charge",
+      "lat": 34.864,
+      "lon": -111.797,
+      "q": "Tesla Supercharger Sedona, AZ",
+      "stay": "about 20 min",
+      "note": "Charge while you grab dinner. The last 115 miles to Phoenix are mostly downhill."
+    },
+    {
+      "id": "phoenix",
+      "name": "Phoenix",
+      "kind": "end",
+      "lat": 33.4484,
+      "lon": -112.074,
+      "q": "Phoenix, AZ"
+    }
+  ],
+  "days": [
+    {
+      "title": "San Jose to Kingman",
+      "time": "about 9 h driving + 1.5 to 2 h charging",
+      "note": "Mostly a driving day: CA-152 to I-5, CA-58 over Tehachapi Pass, then I-40 across the Mojave.",
+      "stops": [
+        "sj",
+        "sc-kettleman",
+        "sc-tehachapi",
+        "sc-barstow",
+        "barstow-museum",
+        "sc-needles",
+        "kingman"
+      ],
+      "legs": [
+        0,
+        160,
+        125,
+        95,
+        5,
+        145,
+        60
+      ],
+      "route": [
+        "sj",
+        [
+          37.005,
+          -121.568
+        ],
+        [
+          37.07,
+          -121.22
+        ],
+        [
+          37.1,
+          -121.02
+        ],
+        [
+          36.6,
+          -120.55
+        ],
+        "sc-kettleman",
+        [
+          35.62,
+          -119.69
+        ],
+        [
+          35.59,
+          -119.34
+        ],
+        [
+          35.37,
+          -119.01
+        ],
+        [
+          35.22,
+          -118.56
+        ],
+        "sc-tehachapi",
+        [
+          35.05,
+          -118.17
+        ],
+        [
+          35.0,
+          -117.65
+        ],
+        [
+          34.93,
+          -117.2
+        ],
+        "sc-barstow",
+        [
+          34.83,
+          -116.69
+        ],
+        [
+          34.72,
+          -116.16
+        ],
+        [
+          34.82,
+          -115.19
+        ],
+        "sc-needles",
+        [
+          34.72,
+          -114.48
+        ],
+        [
+          34.87,
+          -114.15
+        ],
+        "kingman"
+      ]
+    },
+    {
+      "title": "Route 66, Sedona and Phoenix",
+      "time": "about 7.5 h driving + stops",
+      "note": "Leave Kingman by 7 AM. Loop out to Oatman and back on the old road, then east on Route 66 to Williams, down Oak Creek Canyon to Sedona for sunset, and on to Phoenix in the evening.",
+      "warn": "The Oatman loop is narrow and winding; drive it only in daylight. If you skip it, the day is about 2 hours shorter.",
+      "stops": [
+        "kingman",
+        "cool-springs",
+        "sitgreaves",
+        "oatman",
+        "sc-kingman",
+        "hackberry",
+        "seligman",
+        "sc-williams",
+        "oak-creek",
+        "airport-mesa",
+        "sc-sedona",
+        "phoenix"
+      ],
+      "legs": [
+        0,
+        20,
+        4,
+        5,
+        28,
+        28,
+        59,
+        44,
+        45,
+        15,
+        2,
+        117
+      ],
+      "route": [
+        "kingman",
+        [
+          35.1,
+          -114.17
+        ],
+        "cool-springs",
+        "sitgreaves",
+        "oatman",
+        "sitgreaves",
+        "cool-springs",
+        [
+          35.1,
+          -114.17
+        ],
+        "sc-kingman",
+        [
+          35.29,
+          -113.93
+        ],
+        "hackberry",
+        [
+          35.49,
+          -113.56
+        ],
+        [
+          35.53,
+          -113.42
+        ],
+        [
+          35.529,
+          -113.229
+        ],
+        "seligman",
+        [
+          35.22,
+          -112.48
+        ],
+        "sc-williams",
+        [
+          35.26,
+          -111.95
+        ],
+        [
+          35.19,
+          -111.66
+        ],
+        [
+          35.08,
+          -111.74
+        ],
+        "oak-creek",
+        [
+          34.87,
+          -111.76
+        ],
+        "airport-mesa",
+        "sc-sedona",
+        [
+          34.78,
+          -111.76
+        ],
+        [
+          34.7,
+          -111.73
+        ],
+        [
+          34.56,
+          -111.86
+        ],
+        [
+          34.33,
+          -112.12
+        ],
+        [
+          33.86,
+          -112.13
+        ],
+        "phoenix"
+      ]
+    }
+  ]
+}
