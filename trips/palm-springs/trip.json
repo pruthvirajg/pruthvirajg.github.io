@@ -2,7 +2,7 @@
   "slug": "palm-springs",
   "title": "Joshua Tree & Palm Springs",
   "subtitle": "San Jose to the desert and back in four days, no LA, by Tesla",
-  "note": "Four days that never touch Los Angeles. Out on I-5 and CA-58 over Tehachapi Pass, then CA-247 into the high desert. A full day in Joshua Tree National Park, a day in Palm Springs, and home on CA-99 up the Central Valley. Planned for a Model Y with about 230 miles of range at 80%. Pins are approximate; tap Drive here for turn-by-turn.",
+  "note": "Four days that never touch Los Angeles. Out on I-5 and CA-58 over Tehachapi Pass, then CA-247 into the high desert. A full day in Joshua Tree National Park, two nights in Palm Springs, and home Sunday on CA-99 up the Central Valley. Planned for a Model Y with about 230 miles of range at 80%. Pins are approximate; tap Drive here for turn-by-turn.",
   "stops": [
     {
       "id": "sj",
@@ -54,23 +54,13 @@
       "note": "Charge to about 90% tonight. There are no chargers inside Joshua Tree National Park."
     },
     {
-      "id": "pioneertown",
-      "name": "Pioneertown",
-      "kind": "see",
-      "optional": true,
-      "lat": 34.1564,
-      "lon": -116.495,
-      "q": "Pioneertown, CA",
-      "note": "1940s Western film set you can walk through, up the hill from Yucca Valley. Best in daylight."
-    },
-    {
       "id": "jt-village",
       "name": "Joshua Tree",
       "kind": "sleep",
       "lat": 34.1347,
       "lon": -116.3131,
       "q": "Joshua Tree, CA",
-      "note": "Two nights in the town of Joshua Tree, a few minutes from the park's west entrance."
+      "note": "Overnight in the town of Joshua Tree, a few minutes from the park's west entrance."
     },
     {
       "id": "hidden-valley",
@@ -116,7 +106,7 @@
       "lat": 33.9254,
       "lon": -115.9289,
       "q": "Cholla Cactus Garden, Joshua Tree National Park",
-      "note": "A quarter-mile path through a dense field of cholla that glows at sunset. Look, don't touch: the spines stick."
+      "note": "A quarter-mile path through a dense field of cholla. Look, don't touch: the spines stick."
     },
     {
       "id": "palm-springs",
@@ -125,7 +115,7 @@
       "lat": 33.8303,
       "lon": -116.5453,
       "q": "Palm Springs, CA",
-      "note": "Overnight. Charge at the Palm Springs Supercharger tonight before the long drive home."
+      "note": "Two nights here. Charge at the Palm Springs Supercharger Saturday night before the drive home."
     },
     {
       "id": "indian-canyons",
@@ -194,14 +184,13 @@
       "note": "Easy 1.3-mile loop to an old cattle dam, with petroglyphs near the end. Right next to Hidden Valley."
     },
     {
-      "id": "sc-29palms",
-      "name": "Twentynine Palms Supercharger",
-      "kind": "charge",
-      "lat": 34.1356,
-      "lon": -116.0545,
-      "q": "Tesla Supercharger Twentynine Palms, CA",
-      "stay": "about 25 min",
-      "note": "Just outside the park's north entrance. Top up on the way back to Joshua Tree."
+      "id": "cottonwood",
+      "name": "Cottonwood Visitor Center",
+      "kind": "see",
+      "lat": 33.7486,
+      "lon": -115.8238,
+      "q": "Cottonwood Visitor Center, Joshua Tree National Park",
+      "note": "South exit of the park, where the high Mojave drops into the low Colorado Desert. Restrooms and water."
     }
   ],
   "days": [
@@ -292,9 +281,9 @@
       ]
     },
     {
-      "title": "A full day in Joshua Tree",
-      "time": "about 3 h driving + park stops",
-      "note": "Enter at the west entrance by 8 AM. Hike Hidden Valley and Barker Dam, see Keys View while the air is clear, then work east past Skull Rock and Arch Rock to the Cholla Cactus Garden for sunset. Leave by the north entrance and charge in Twentynine Palms.",
+      "title": "A full day in Joshua Tree, then Palm Springs",
+      "time": "about 3.5 h driving + park stops",
+      "note": "Enter at the west entrance by 8 AM. Hike Hidden Valley and Barker Dam, see Keys View while the air is clear, then work east past Skull Rock and Arch Rock to the Cholla Cactus Garden. Leave by the south entrance at Cottonwood and take I-10 to Palm Springs for the evening.",
       "warn": "There are no chargers or gas inside the park, and lines at the west entrance get long on holiday weekends. Start the day near full and bring water and food.",
       "stops": [
         "jt-village",
@@ -304,8 +293,8 @@
         "skull-rock",
         "arch-rock",
         "cholla",
-        "sc-29palms",
-        "jt-village"
+        "cottonwood",
+        "palm-springs"
       ],
       "legs": [
         0,
@@ -315,8 +304,8 @@
         22,
         7,
         10,
-        25,
-        15
+        20,
+        57
       ],
       "route": [
         "jt-village",
@@ -356,32 +345,31 @@
         ],
         "cholla",
         [
-          33.98,
-          -115.98
+          33.85,
+          -115.85
+        ],
+        "cottonwood",
+        [
+          33.68,
+          -115.8
         ],
         [
-          34.03,
-          -116.02
-        ],
-        [
-          34.08,
-          -116.04
-        ],
-        "sc-29palms",
-        [
-          34.13,
+          33.72,
           -116.2
         ],
-        "jt-village"
+        [
+          33.77,
+          -116.4
+        ],
+        "palm-springs"
       ]
     },
     {
-      "title": "Joshua Tree to Palm Springs",
-      "time": "about 1.5 h driving + stops",
-      "note": "Pioneertown in the morning, then down CA-62 to Palm Springs. Palm Canyon in the afternoon, downtown, and the Aerial Tramway up Mount San Jacinto for sunset.",
+      "title": "A full day in Palm Springs",
+      "time": "about 30 min driving",
+      "note": "No long drive today. Palm Canyon in the morning, downtown for lunch, and the Aerial Tramway up Mount San Jacinto for sunset.",
       "stops": [
-        "jt-village",
-        "pioneertown",
+        "palm-springs",
         "indian-canyons",
         "palm-canyon-dr",
         "tramway",
@@ -390,36 +378,14 @@
       ],
       "legs": [
         0,
-        16,
-        50,
+        6,
         6,
         6,
         7,
         2
       ],
       "route": [
-        "jt-village",
-        [
-          34.12,
-          -116.43
-        ],
-        "pioneertown",
-        [
-          34.12,
-          -116.43
-        ],
-        [
-          34.05,
-          -116.58
-        ],
-        [
-          33.93,
-          -116.55
-        ],
-        [
-          33.83,
-          -116.55
-        ],
+        "palm-springs",
         "indian-canyons",
         "palm-canyon-dr",
         "tramway",
