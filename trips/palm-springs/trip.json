@@ -1,0 +1,494 @@
+{
+  "slug": "palm-springs",
+  "title": "Joshua Tree & Palm Springs",
+  "subtitle": "San Jose to the desert and back in four days, no LA, by Tesla",
+  "note": "Four days that never touch Los Angeles. Out on I-5 and CA-58 over Tehachapi Pass, then CA-247 into the high desert for Joshua Tree. A full day crossing the park, a day in Palm Springs, and home on CA-99 up the Central Valley. Planned for a Model Y with about 230 miles of range at 80%. Pins are approximate; tap Drive here for turn-by-turn.",
+  "stops": [
+    {
+      "id": "sj",
+      "name": "San Jose",
+      "kind": "start",
+      "lat": 37.3382,
+      "lon": -121.8863,
+      "q": "San Jose, CA",
+      "note": "Leave around 9 AM with a full charge."
+    },
+    {
+      "id": "sc-kettleman",
+      "name": "Kettleman City Supercharger",
+      "kind": "charge",
+      "lat": 36.0076,
+      "lon": -119.9617,
+      "q": "Tesla Supercharger Kettleman City, CA",
+      "stay": "about 25 min",
+      "note": "Big site off I-5, but it gets long lines on holiday weekends."
+    },
+    {
+      "id": "sc-tehachapi",
+      "name": "Tehachapi Supercharger",
+      "kind": "charge",
+      "lat": 35.132,
+      "lon": -118.449,
+      "q": "Tesla Supercharger Tehachapi, CA",
+      "stay": "about 20 min",
+      "note": "Top up before the high desert. CA-58 climbs over Tehachapi Pass."
+    },
+    {
+      "id": "sc-barstow",
+      "name": "Barstow Supercharger",
+      "kind": "charge",
+      "lat": 34.876,
+      "lon": -117.11,
+      "q": "Tesla Supercharger Barstow, CA",
+      "stay": "about 25 min",
+      "note": "Charge well here: CA-247 to Yucca Valley is about 80 miles of two-lane desert road with no services."
+    },
+    {
+      "id": "sc-yucca",
+      "name": "Yucca Valley Supercharger",
+      "kind": "charge",
+      "lat": 34.1218,
+      "lon": -116.424,
+      "q": "Tesla Supercharger Yucca Valley, CA",
+      "stay": "about 30 min",
+      "note": "Charge to about 90% tonight or first thing tomorrow. There are no chargers inside Joshua Tree National Park."
+    },
+    {
+      "id": "pioneertown",
+      "name": "Pioneertown",
+      "kind": "see",
+      "optional": true,
+      "lat": 34.1564,
+      "lon": -116.495,
+      "q": "Pioneertown, CA",
+      "note": "1940s Western film set you can walk through, ten minutes up the hill from Yucca Valley."
+    },
+    {
+      "id": "jt-village",
+      "name": "Joshua Tree",
+      "kind": "sleep",
+      "lat": 34.1347,
+      "lon": -116.3131,
+      "q": "Joshua Tree, CA",
+      "note": "Overnight in the town of Joshua Tree, a few minutes from the park's west entrance."
+    },
+    {
+      "id": "hidden-valley",
+      "name": "Hidden Valley",
+      "kind": "see",
+      "lat": 34.0123,
+      "lon": -116.1681,
+      "q": "Hidden Valley Trailhead, Joshua Tree National Park",
+      "note": "Easy one-mile loop through a rock-walled valley. Get here early: parking fills fast on holiday weekends."
+    },
+    {
+      "id": "keys-view",
+      "name": "Keys View",
+      "kind": "see",
+      "lat": 33.9268,
+      "lon": -116.1876,
+      "q": "Keys View, Joshua Tree National Park",
+      "note": "Lookout over the Coachella Valley, the San Andreas Fault and the Salton Sea. A short spur road off Park Boulevard."
+    },
+    {
+      "id": "skull-rock",
+      "name": "Skull Rock",
+      "kind": "see",
+      "lat": 33.9977,
+      "lon": -116.0607,
+      "q": "Skull Rock, Joshua Tree National Park",
+      "note": "The famous skull-shaped boulder right by the road."
+    },
+    {
+      "id": "arch-rock",
+      "name": "Arch Rock",
+      "kind": "see",
+      "optional": true,
+      "lat": 33.9839,
+      "lon": -115.9927,
+      "q": "Arch Rock Trailhead, Joshua Tree National Park",
+      "note": "Short, flat walk from White Tank to a natural granite arch."
+    },
+    {
+      "id": "cholla",
+      "name": "Cholla Cactus Garden",
+      "kind": "see",
+      "lat": 33.9254,
+      "lon": -115.9289,
+      "q": "Cholla Cactus Garden, Joshua Tree National Park",
+      "note": "A quarter-mile path through a dense field of glowing cholla. Look, don't touch: the spines stick."
+    },
+    {
+      "id": "cottonwood",
+      "name": "Cottonwood Visitor Center",
+      "kind": "see",
+      "lat": 33.7486,
+      "lon": -115.8238,
+      "q": "Cottonwood Visitor Center, Joshua Tree National Park",
+      "note": "South exit of the park, where the high Mojave drops into the low Colorado Desert. Restrooms and water."
+    },
+    {
+      "id": "palm-springs",
+      "name": "Palm Springs",
+      "kind": "sleep",
+      "lat": 33.8303,
+      "lon": -116.5453,
+      "q": "Palm Springs, CA",
+      "note": "Two nights here. Charge at the Palm Springs Supercharger before you head home Sunday."
+    },
+    {
+      "id": "indian-canyons",
+      "name": "Indian Canyons",
+      "kind": "see",
+      "lat": 33.7403,
+      "lon": -116.5406,
+      "q": "Indian Canyons, Palm Springs, CA",
+      "note": "Palm Canyon's oasis of fan palms on Agua Caliente tribal land. Easy trails. Check the hours and entry fee before you go."
+    },
+    {
+      "id": "palm-canyon-dr",
+      "name": "Palm Canyon Drive",
+      "kind": "see",
+      "lat": 33.8236,
+      "lon": -116.5466,
+      "q": "Palm Canyon Drive, Palm Springs, CA",
+      "note": "Downtown Palm Springs: mid-century buildings, shops and lunch."
+    },
+    {
+      "id": "tramway",
+      "name": "Palm Springs Aerial Tramway",
+      "kind": "see",
+      "optional": true,
+      "lat": 33.837,
+      "lon": -116.614,
+      "q": "Palm Springs Aerial Tramway, Palm Springs, CA",
+      "note": "Rotating cable car up to about 8,500 feet on Mount San Jacinto. Great at sunset. Check the last ride up before you go."
+    },
+    {
+      "id": "sc-palm-springs",
+      "name": "Palm Springs Supercharger",
+      "kind": "charge",
+      "lat": 33.8166,
+      "lon": -116.5286,
+      "q": "Tesla Supercharger Palm Springs, CA",
+      "stay": "overnight top-up",
+      "note": "Charge to about 90% Saturday night: Sunday's first leg to Barstow is about 115 miles with a climb out of the desert."
+    },
+    {
+      "id": "sc-fresno",
+      "name": "Fresno Supercharger",
+      "kind": "charge",
+      "lat": 36.7983,
+      "lon": -119.7712,
+      "q": "Tesla Supercharger Fresno, CA",
+      "stay": "about 30 min",
+      "note": "Charge to about 90% here for the last 160 miles home on CA-99 and CA-152."
+    },
+    {
+      "id": "sj-home",
+      "name": "San Jose",
+      "kind": "end",
+      "lat": 37.3382,
+      "lon": -121.8863,
+      "q": "San Jose, CA",
+      "note": "Home Sunday night."
+    }
+  ],
+  "days": [
+    {
+      "title": "San Jose to Joshua Tree",
+      "time": "about 8 h driving + 1.5 h charging",
+      "note": "I-5 to Kettleman City, CA-58 over Tehachapi Pass to Barstow, then CA-247 through Lucerne Valley into the high desert. No Los Angeles.",
+      "warn": "You'll reach the desert after dark. CA-247 is a two-lane road with no lights or services, so take it steady.",
+      "stops": [
+        "sj",
+        "sc-kettleman",
+        "sc-tehachapi",
+        "sc-barstow",
+        "sc-yucca",
+        "pioneertown",
+        "jt-village"
+      ],
+      "legs": [
+        0,
+        160,
+        125,
+        95,
+        82,
+        6,
+        14
+      ],
+      "route": [
+        "sj",
+        [
+          37.005,
+          -121.568
+        ],
+        [
+          37.07,
+          -121.22
+        ],
+        [
+          37.1,
+          -121.02
+        ],
+        [
+          36.6,
+          -120.55
+        ],
+        "sc-kettleman",
+        [
+          35.62,
+          -119.69
+        ],
+        [
+          35.59,
+          -119.34
+        ],
+        [
+          35.37,
+          -119.01
+        ],
+        [
+          35.22,
+          -118.56
+        ],
+        "sc-tehachapi",
+        [
+          35.05,
+          -118.17
+        ],
+        [
+          35.0,
+          -117.65
+        ],
+        [
+          34.93,
+          -117.2
+        ],
+        "sc-barstow",
+        [
+          34.7,
+          -116.98
+        ],
+        [
+          34.44,
+          -116.97
+        ],
+        [
+          34.3,
+          -116.8
+        ],
+        "sc-yucca",
+        "pioneertown",
+        "sc-yucca",
+        "jt-village"
+      ]
+    },
+    {
+      "title": "Joshua Tree National Park to Palm Springs",
+      "time": "about 3.5 h driving + park stops",
+      "note": "Enter at the west entrance by 8 AM, drive Park Boulevard and Pinto Basin Road through the park, leave by the south entrance and take I-10 to Palm Springs.",
+      "warn": "There are no chargers or gas inside the park, and lines at the west entrance get long on holiday weekends. Start the day near full.",
+      "stops": [
+        "jt-village",
+        "hidden-valley",
+        "keys-view",
+        "skull-rock",
+        "arch-rock",
+        "cholla",
+        "cottonwood",
+        "palm-springs"
+      ],
+      "legs": [
+        0,
+        15,
+        10,
+        22,
+        7,
+        10,
+        20,
+        57
+      ],
+      "route": [
+        "jt-village",
+        [
+          34.08,
+          -116.27
+        ],
+        [
+          34.04,
+          -116.2
+        ],
+        "hidden-valley",
+        [
+          33.99,
+          -116.16
+        ],
+        "keys-view",
+        [
+          33.99,
+          -116.16
+        ],
+        [
+          34.0,
+          -116.1
+        ],
+        "skull-rock",
+        [
+          33.98,
+          -116.0
+        ],
+        "arch-rock",
+        [
+          33.97,
+          -115.98
+        ],
+        "cholla",
+        [
+          33.85,
+          -115.85
+        ],
+        "cottonwood",
+        [
+          33.68,
+          -115.8
+        ],
+        [
+          33.72,
+          -116.2
+        ],
+        [
+          33.77,
+          -116.4
+        ],
+        "palm-springs"
+      ]
+    },
+    {
+      "title": "A day in Palm Springs",
+      "time": "about 30 min driving",
+      "note": "No long drive today. Palm Canyon in the morning, downtown for lunch, and the Aerial Tramway up Mount San Jacinto for sunset.",
+      "stops": [
+        "palm-springs",
+        "indian-canyons",
+        "palm-canyon-dr",
+        "tramway",
+        "sc-palm-springs"
+      ],
+      "legs": [
+        0,
+        6,
+        6,
+        6,
+        7
+      ],
+      "route": [
+        "palm-springs",
+        "indian-canyons",
+        "palm-canyon-dr",
+        "tramway",
+        "sc-palm-springs"
+      ]
+    },
+    {
+      "title": "Palm Springs to San Jose",
+      "time": "about 8.5 h driving + 1.5 to 2 h charging",
+      "note": "Back the way you came through the high desert to Barstow and Tehachapi, then north on CA-99 through Bakersfield and Fresno instead of I-5. Still no Los Angeles.",
+      "warn": "The Sunday after Thanksgiving is one of the busiest driving days of the year, and rain is possible in Northern California. Leave Palm Springs by 7 AM and expect lines at the Superchargers.",
+      "stops": [
+        "palm-springs",
+        "sc-barstow",
+        "sc-tehachapi",
+        "sc-fresno",
+        "sj-home"
+      ],
+      "legs": [
+        0,
+        115,
+        95,
+        150,
+        160
+      ],
+      "route": [
+        "palm-springs",
+        [
+          33.93,
+          -116.55
+        ],
+        [
+          34.05,
+          -116.58
+        ],
+        [
+          34.12,
+          -116.43
+        ],
+        [
+          34.3,
+          -116.8
+        ],
+        [
+          34.44,
+          -116.97
+        ],
+        [
+          34.7,
+          -116.98
+        ],
+        "sc-barstow",
+        [
+          34.93,
+          -117.2
+        ],
+        [
+          35.0,
+          -117.65
+        ],
+        [
+          35.05,
+          -118.17
+        ],
+        "sc-tehachapi",
+        [
+          35.22,
+          -118.56
+        ],
+        [
+          35.37,
+          -119.01
+        ],
+        [
+          35.77,
+          -119.25
+        ],
+        [
+          36.2,
+          -119.35
+        ],
+        [
+          36.5,
+          -119.55
+        ],
+        "sc-fresno",
+        [
+          37.12,
+          -120.26
+        ],
+        [
+          37.06,
+          -120.85
+        ],
+        [
+          37.07,
+          -121.22
+        ],
+        [
+          37.005,
+          -121.568
+        ],
+        "sj-home"
+      ]
+    }
+  ]
+}
