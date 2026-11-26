@@ -1,8 +1,8 @@
 {
   "slug": "phoenix",
-  "title": "Phoenix by Route 66",
-  "subtitle": "San Jose to Phoenix the scenic way, by Tesla",
-  "note": "Two days, one way. Instead of the faster I-5 and I-10 route through Los Angeles, this one follows I-40 to Kingman, old Route 66 through Oatman, Hackberry and Seligman, then down through Oak Creek Canyon and Sedona. Planned for a Model Y with about 230 miles of range at 80%. Pins are approximate; tap Drive here for turn-by-turn.",
+  "title": "Phoenix Round Trip by Route 66",
+  "subtitle": "San Jose to Phoenix and back in four days, by Tesla",
+  "note": "Four days, out and back on different roads. Out: I-40 to Kingman, old Route 66 through Oatman, Hackberry and Seligman, then Oak Creek Canyon and Sedona into Phoenix. Back: a Phoenix morning, I-10 west to Palm Springs, then over the Grapevine on I-5 home. Planned for a Model Y with about 230 miles of range at 80%. Pins are approximate; tap Drive here for turn-by-turn.",
   "stops": [
     {
       "id": "sj",
@@ -171,10 +171,88 @@
     {
       "id": "phoenix",
       "name": "Phoenix",
-      "kind": "end",
+      "kind": "sleep",
       "lat": 33.4484,
       "lon": -112.074,
-      "q": "Phoenix, AZ"
+      "q": "Phoenix, AZ",
+      "note": "Overnight. Charge to about 90% tonight at a Phoenix-area Supercharger: tomorrow's first charging leg is about 135 miles."
+    },
+    {
+      "id": "desert-botanical",
+      "name": "Desert Botanical Garden",
+      "kind": "see",
+      "lat": 33.4617,
+      "lon": -111.9443,
+      "q": "Desert Botanical Garden, Phoenix, AZ",
+      "note": "Saguaros, cholla and desert trails in Papago Park. Check the hours and buy a timed ticket if needed."
+    },
+    {
+      "id": "hole-in-rock",
+      "name": "Hole-in-the-Rock",
+      "kind": "see",
+      "optional": true,
+      "lat": 33.4555,
+      "lon": -111.9455,
+      "q": "Hole-in-the-Rock, Papago Park, Phoenix, AZ",
+      "note": "Short, easy scramble up to a sandstone window over the city, next to the garden."
+    },
+    {
+      "id": "sc-quartzsite",
+      "name": "Quartzsite Supercharger",
+      "kind": "charge",
+      "lat": 33.668,
+      "lon": -114.217,
+      "q": "Tesla Supercharger Quartzsite, AZ",
+      "stay": "about 30 min",
+      "note": "Last Arizona stop. Charge well: the next stretch on I-10 to Palm Springs is about 145 miles of desert."
+    },
+    {
+      "id": "tramway",
+      "name": "Palm Springs Aerial Tramway",
+      "kind": "see",
+      "optional": true,
+      "lat": 33.837,
+      "lon": -116.614,
+      "q": "Palm Springs Aerial Tramway, Palm Springs, CA",
+      "note": "Rotating cable car up to about 8,500 feet on Mount San Jacinto. Great at sunset. Check the last ride up before you go."
+    },
+    {
+      "id": "palm-springs",
+      "name": "Palm Springs",
+      "kind": "sleep",
+      "lat": 33.8303,
+      "lon": -116.5453,
+      "q": "Palm Springs, CA",
+      "note": "Overnight. Charge at the Palm Springs Supercharger tonight so you leave near 100%."
+    },
+    {
+      "id": "cabazon",
+      "name": "Cabazon Dinosaurs",
+      "kind": "see",
+      "optional": true,
+      "lat": 33.9195,
+      "lon": -116.7697,
+      "q": "Cabazon Dinosaurs, Cabazon, CA",
+      "note": "Giant roadside dinosaurs right off I-10. A ten-minute photo stop; there's a Supercharger at the outlets next door."
+    },
+    {
+      "id": "sc-tejon",
+      "name": "Tejon Ranch Supercharger",
+      "kind": "charge",
+      "lat": 34.9867,
+      "lon": -118.9465,
+      "q": "Tesla Supercharger Tejon Ranch, CA",
+      "stay": "about 25 min",
+      "note": "Big site at the bottom of the Grapevine. Expect a wait on the Sunday after Thanksgiving."
+    },
+    {
+      "id": "sj-home",
+      "name": "San Jose",
+      "kind": "end",
+      "lat": 37.3382,
+      "lon": -121.8863,
+      "q": "San Jose, CA",
+      "note": "Home Sunday night."
     }
   ],
   "days": [
@@ -385,6 +463,170 @@
           -112.13
         ],
         "phoenix"
+      ]
+    },
+    {
+      "title": "Phoenix to Palm Springs",
+      "time": "about 4.5 h driving + 45 min charging",
+      "note": "Slow morning in Phoenix, leave by about 1 PM, then I-10 west across the desert to Palm Springs for the evening.",
+      "stops": [
+        "phoenix",
+        "desert-botanical",
+        "hole-in-rock",
+        "sc-quartzsite",
+        "tramway",
+        "palm-springs"
+      ],
+      "legs": [
+        0,
+        8,
+        2,
+        135,
+        150,
+        6
+      ],
+      "route": [
+        "phoenix",
+        [
+          33.455,
+          -112.0
+        ],
+        "desert-botanical",
+        "hole-in-rock",
+        [
+          33.46,
+          -112.25
+        ],
+        [
+          33.43,
+          -112.55
+        ],
+        [
+          33.47,
+          -113.0
+        ],
+        [
+          33.55,
+          -113.6
+        ],
+        [
+          33.65,
+          -113.95
+        ],
+        "sc-quartzsite",
+        [
+          33.61,
+          -114.6
+        ],
+        [
+          33.7,
+          -115.2
+        ],
+        [
+          33.73,
+          -115.8
+        ],
+        [
+          33.72,
+          -116.2
+        ],
+        [
+          33.77,
+          -116.4
+        ],
+        [
+          33.82,
+          -116.5
+        ],
+        "tramway",
+        "palm-springs"
+      ]
+    },
+    {
+      "title": "Palm Springs to San Jose",
+      "time": "about 8 h driving + 1.5 h charging",
+      "note": "I-10 to Los Angeles, I-210 across the top of the city, then I-5 over the Grapevine and up the Central Valley home.",
+      "warn": "The Sunday after Thanksgiving is one of the busiest driving days of the year, and rain is possible in Northern California. Leave Palm Springs by 7 AM, expect lines at the Superchargers, and check I-5 over the Grapevine before you go. Charge to about 90% at Kettleman City, or add a stop at Harris Ranch, for the last 160 miles.",
+      "stops": [
+        "palm-springs",
+        "cabazon",
+        "sc-tejon",
+        "sc-kettleman",
+        "sj-home"
+      ],
+      "legs": [
+        0,
+        18,
+        150,
+        105,
+        160
+      ],
+      "route": [
+        "palm-springs",
+        [
+          33.9,
+          -116.62
+        ],
+        "cabazon",
+        [
+          33.93,
+          -116.98
+        ],
+        [
+          34.06,
+          -117.3
+        ],
+        [
+          34.1,
+          -117.65
+        ],
+        [
+          34.15,
+          -118.1
+        ],
+        [
+          34.3,
+          -118.42
+        ],
+        [
+          34.48,
+          -118.62
+        ],
+        [
+          34.8,
+          -118.87
+        ],
+        "sc-tejon",
+        [
+          35.2,
+          -119.1
+        ],
+        [
+          35.4,
+          -119.47
+        ],
+        [
+          35.8,
+          -119.85
+        ],
+        "sc-kettleman",
+        [
+          36.6,
+          -120.55
+        ],
+        [
+          37.1,
+          -121.02
+        ],
+        [
+          37.07,
+          -121.22
+        ],
+        [
+          37.005,
+          -121.568
+        ],
+        "sj-home"
       ]
     }
   ]
